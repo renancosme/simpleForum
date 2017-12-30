@@ -1,0 +1,64 @@
+﻿@model SimpleForum.Presentation.Models.PostViewModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Posts</h2>
+<hr />
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <p>@Model.TopicAndPosts.Title</p>
+        <p>by @Model.TopicAndPosts.User.Name - @Model.TopicAndPosts.Date.ToString("dd/MM/yyyy HH:mm:ss")</p>
+    </div>
+
+    <div class="panel-body">
+        @if (Model.TopicAndPosts.Posts.Count > 0)
+        {
+            foreach (var item in Model.TopicAndPosts.Posts)
+            {
+                <div class="row">
+                    <div class="col-md-10 warning">
+                        <p>@item.Description</p>
+                        <p>by @item.User.Name - @item.Date.ToString("dd/MM/yyyy HH:mm:ss")</p>
+                    </div>
+                </div>
+                <hr />
+            }
+        }
+        else
+        {
+            <div class="bg-warning">
+                <p>There's no post regitred.</p>
+            </div>
+        }
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-10">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <textarea asp-for="Description" rows="5" class="form-control"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+            @Html.HiddenFor(m => m.TopicId)
+        </form>
+    </div>
+</div>
+
+
+<div>
+    <a asp-action="Index" asp-controller="Topic">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

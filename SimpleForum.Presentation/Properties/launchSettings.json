@@ -1,0 +1,29 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:15856/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SimpleForumContext": "Data Source=.\\SQLExpress; Initial Catalog=SimpleForum; Integrated Security=SSPI"
+      }
+    },
+    "SimpleForum.Presentation": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SimpleForumContext": "Data Source=.\\SQLExpress; Initial Catalog=SimpleForum; Integrated Security=SSPI"
+      },
+      "applicationUrl": "http://localhost:15857/"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Presentation\bin\Debug\netcoreapp2.0\SimpleForum.Presentation.deps.json
+C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Presentation\bin\Debug\netcoreapp2.0\SimpleForum.Presentation.runtimeconfig.json
+C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Presentation\bin\Debug\netcoreapp2.0\SimpleForum.Presentation.runtimeconfig.dev.json
+C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Presentation\bin\Debug\netcoreapp2.0\SimpleForum.Presentation.dll
+C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Presentation\bin\Debug\netcoreapp2.0\SimpleForum.Presentation.pdb
+C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Presentation\obj\Debug\netcoreapp2.0\SimpleForum.Presentation.csprojResolveAssemblyReference.cache
+C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Presentation\obj\Debug\netcoreapp2.0\SimpleForum.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Presentation\obj\Debug\netcoreapp2.0\SimpleForum.Presentation.AssemblyInfoInputs.cache
+C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Presentation\obj\Debug\netcoreapp2.0\SimpleForum.Presentation.AssemblyInfo.cs
+C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Presentation\obj\Debug\netcoreapp2.0\SimpleForum.Presentation.dll
+C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Presentation\obj\Debug\netcoreapp2.0\SimpleForum.Presentation.pdb
+C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Presentation\bin\Debug\netcoreapp2.0\SimpleForum.Domain.dll
+C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Presentation\bin\Debug\netcoreapp2.0\SimpleForum.Infrastructure.dll
+C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Presentation\bin\Debug\netcoreapp2.0\SimpleForum.Domain.pdb
+C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Presentation\bin\Debug\netcoreapp2.0\SimpleForum.Infrastructure.pdb
+C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Presentation\bin\Debug\netcoreapp2.0\SimpleForum.Infrastructure.dll.config
