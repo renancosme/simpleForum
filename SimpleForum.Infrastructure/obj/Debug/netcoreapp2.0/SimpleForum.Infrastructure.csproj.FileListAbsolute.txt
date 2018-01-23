@@ -10,3 +10,15 @@ C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleFo
 C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Infrastructure\bin\Debug\netcoreapp2.0\SimpleForum.Domain.pdb
 C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Infrastructure\obj\Debug\netcoreapp2.0\SimpleForum.Infrastructure.dll
 C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Infrastructure\obj\Debug\netcoreapp2.0\SimpleForum.Infrastructure.pdb
+C:\Git\forum\SimpleForum.Infrastructure\bin\Debug\netcoreapp2.0\SimpleForum.Infrastructure.dll.config
+C:\Git\forum\SimpleForum.Infrastructure\bin\Debug\netcoreapp2.0\SimpleForum.Infrastructure.deps.json
+C:\Git\forum\SimpleForum.Infrastructure\bin\Debug\netcoreapp2.0\SimpleForum.Infrastructure.dll
+C:\Git\forum\SimpleForum.Infrastructure\bin\Debug\netcoreapp2.0\SimpleForum.Infrastructure.pdb
+C:\Git\forum\SimpleForum.Infrastructure\bin\Debug\netcoreapp2.0\SimpleForum.Domain.dll
+C:\Git\forum\SimpleForum.Infrastructure\bin\Debug\netcoreapp2.0\SimpleForum.Domain.pdb
+C:\Git\forum\SimpleForum.Infrastructure\obj\Debug\netcoreapp2.0\SimpleForum.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Git\forum\SimpleForum.Infrastructure\obj\Debug\netcoreapp2.0\SimpleForum.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Git\forum\SimpleForum.Infrastructure\obj\Debug\netcoreapp2.0\SimpleForum.Infrastructure.AssemblyInfoInputs.cache
+C:\Git\forum\SimpleForum.Infrastructure\obj\Debug\netcoreapp2.0\SimpleForum.Infrastructure.AssemblyInfo.cs
+C:\Git\forum\SimpleForum.Infrastructure\obj\Debug\netcoreapp2.0\SimpleForum.Infrastructure.dll
+C:\Git\forum\SimpleForum.Infrastructure\obj\Debug\netcoreapp2.0\SimpleForum.Infrastructure.pdb

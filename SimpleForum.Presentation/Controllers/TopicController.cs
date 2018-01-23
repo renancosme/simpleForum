@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SimpleForum.Domain;
 using SimpleForum.Domain.Entities;
@@ -26,12 +27,14 @@ namespace SimpleForum.Presentation.Controllers
             return View(new TopicIndexViewModel(topics));
         }
 
+        [Authorize]
         [HttpGet]
         public IActionResult Create()
         {            
             return View(new TopicViewModel());
         }
 
+        [Authorize]
         [HttpPost]
         public IActionResult Create(TopicViewModel topicViewModel)
         {

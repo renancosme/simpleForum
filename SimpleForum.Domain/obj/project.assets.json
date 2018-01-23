@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\RENAN\\Documents\\Visual Studio 2017\\Projects\\SimpleForum.Domain\\SimpleForum.Domain\\SimpleForum.Domain.csproj",
+      "projectUniqueName": "C:\\Git\\forum\\SimpleForum.Domain\\SimpleForum.Domain.csproj",
       "projectName": "SimpleForum.Domain",
-      "projectPath": "C:\\Users\\RENAN\\Documents\\Visual Studio 2017\\Projects\\SimpleForum.Domain\\SimpleForum.Domain\\SimpleForum.Domain.csproj",
+      "projectPath": "C:\\Git\\forum\\SimpleForum.Domain\\SimpleForum.Domain.csproj",
       "packagesPath": "C:\\Users\\RENAN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RENAN\\Documents\\Visual Studio 2017\\Projects\\SimpleForum.Domain\\SimpleForum.Domain\\obj\\",
+      "outputPath": "C:\\Git\\forum\\SimpleForum.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

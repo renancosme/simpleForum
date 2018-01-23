@@ -13207,11 +13207,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\RENAN\\Documents\\Visual Studio 2017\\Projects\\SimpleForum.Domain\\SimpleForum.Presentation\\SimpleForum.Presentation.csproj",
+      "projectUniqueName": "C:\\Git\\forum\\SimpleForum.Presentation\\SimpleForum.Presentation.csproj",
       "projectName": "SimpleForum.Presentation",
-      "projectPath": "C:\\Users\\RENAN\\Documents\\Visual Studio 2017\\Projects\\SimpleForum.Domain\\SimpleForum.Presentation\\SimpleForum.Presentation.csproj",
+      "projectPath": "C:\\Git\\forum\\SimpleForum.Presentation\\SimpleForum.Presentation.csproj",
       "packagesPath": "C:\\Users\\RENAN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RENAN\\Documents\\Visual Studio 2017\\Projects\\SimpleForum.Domain\\SimpleForum.Presentation\\obj\\",
+      "outputPath": "C:\\Git\\forum\\SimpleForum.Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13230,11 +13230,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\RENAN\\Documents\\Visual Studio 2017\\Projects\\SimpleForum.Domain\\SimpleForum.Domain\\SimpleForum.Domain.csproj": {
-              "projectPath": "C:\\Users\\RENAN\\Documents\\Visual Studio 2017\\Projects\\SimpleForum.Domain\\SimpleForum.Domain\\SimpleForum.Domain.csproj"
+            "C:\\Git\\forum\\SimpleForum.Domain\\SimpleForum.Domain.csproj": {
+              "projectPath": "C:\\Git\\forum\\SimpleForum.Domain\\SimpleForum.Domain.csproj"
             },
-            "C:\\Users\\RENAN\\Documents\\Visual Studio 2017\\Projects\\SimpleForum.Domain\\SimpleForum.Infrastructure\\SimpleForum.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\RENAN\\Documents\\Visual Studio 2017\\Projects\\SimpleForum.Domain\\SimpleForum.Infrastructure\\SimpleForum.Infrastructure.csproj"
+            "C:\\Git\\forum\\SimpleForum.Infrastructure\\SimpleForum.Infrastructure.csproj": {
+              "projectPath": "C:\\Git\\forum\\SimpleForum.Infrastructure\\SimpleForum.Infrastructure.csproj"
             }
           }
         }

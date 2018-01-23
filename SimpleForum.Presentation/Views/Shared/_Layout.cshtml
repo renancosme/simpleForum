@@ -34,6 +34,16 @@
                     <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
                     <li><a asp-area="" asp-controller="Topic" asp-action="Index">Topics</a></li>
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li><a asp-area="" asp-controller="Login" asp-action="Logout">LogOut</a></li>
+                    }
+                    else
+                    {
+                        <li><a asp-area="" asp-controller="User" asp-action="Create">Register here!</a></li>
+                    }
+
                 </ul>
             </div>
         </div>

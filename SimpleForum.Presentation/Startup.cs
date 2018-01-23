@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -7,6 +8,7 @@ using SimpleForum.Domain;
 using SimpleForum.Domain.Repository;
 using SimpleForum.Infrastructure;
 using SimpleForum.Infrastructure.Repository;
+using System;
 
 namespace SimpleForum.Presentation
 {
@@ -33,6 +35,15 @@ namespace SimpleForum.Presentation
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             services.AddMvc();
+
+            // Sets the default authentication scheme for the app.
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                    .AddCookie(options =>
+                    {
+                        options.LoginPath = "/Login/Login";
+                        options.LogoutPath = "/Login/Logout";
+                        options.ExpireTimeSpan = TimeSpan.FromSeconds(20);
+                    });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,6 +60,9 @@ namespace SimpleForum.Presentation
             }
 
             app.UseStaticFiles();
+
+            // Invoke the Authentication Middleware
+            app.UseAuthentication();
 
             app.UseMvc(routes =>
             {

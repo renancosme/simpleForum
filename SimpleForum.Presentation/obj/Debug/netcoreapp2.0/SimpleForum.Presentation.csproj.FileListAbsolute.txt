@@ -14,3 +14,19 @@ C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleFo
 C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Presentation\bin\Debug\netcoreapp2.0\SimpleForum.Domain.pdb
 C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Presentation\bin\Debug\netcoreapp2.0\SimpleForum.Infrastructure.pdb
 C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Presentation\bin\Debug\netcoreapp2.0\SimpleForum.Infrastructure.dll.config
+C:\Git\forum\SimpleForum.Presentation\bin\Debug\netcoreapp2.0\SimpleForum.Presentation.deps.json
+C:\Git\forum\SimpleForum.Presentation\bin\Debug\netcoreapp2.0\SimpleForum.Presentation.runtimeconfig.json
+C:\Git\forum\SimpleForum.Presentation\bin\Debug\netcoreapp2.0\SimpleForum.Presentation.runtimeconfig.dev.json
+C:\Git\forum\SimpleForum.Presentation\bin\Debug\netcoreapp2.0\SimpleForum.Presentation.dll
+C:\Git\forum\SimpleForum.Presentation\bin\Debug\netcoreapp2.0\SimpleForum.Presentation.pdb
+C:\Git\forum\SimpleForum.Presentation\bin\Debug\netcoreapp2.0\SimpleForum.Domain.dll
+C:\Git\forum\SimpleForum.Presentation\bin\Debug\netcoreapp2.0\SimpleForum.Infrastructure.dll
+C:\Git\forum\SimpleForum.Presentation\bin\Debug\netcoreapp2.0\SimpleForum.Domain.pdb
+C:\Git\forum\SimpleForum.Presentation\bin\Debug\netcoreapp2.0\SimpleForum.Infrastructure.pdb
+C:\Git\forum\SimpleForum.Presentation\bin\Debug\netcoreapp2.0\SimpleForum.Infrastructure.dll.config
+C:\Git\forum\SimpleForum.Presentation\obj\Debug\netcoreapp2.0\SimpleForum.Presentation.csprojResolveAssemblyReference.cache
+C:\Git\forum\SimpleForum.Presentation\obj\Debug\netcoreapp2.0\SimpleForum.Presentation.csproj.CoreCompileInputs.cache
+C:\Git\forum\SimpleForum.Presentation\obj\Debug\netcoreapp2.0\SimpleForum.Presentation.AssemblyInfoInputs.cache
+C:\Git\forum\SimpleForum.Presentation\obj\Debug\netcoreapp2.0\SimpleForum.Presentation.AssemblyInfo.cs
+C:\Git\forum\SimpleForum.Presentation\obj\Debug\netcoreapp2.0\SimpleForum.Presentation.dll
+C:\Git\forum\SimpleForum.Presentation\obj\Debug\netcoreapp2.0\SimpleForum.Presentation.pdb

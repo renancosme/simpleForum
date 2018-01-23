@@ -20,7 +20,12 @@ namespace SimpleForum.Infrastructure.Repository
         {
             _context.Set<TEntity>().Add(entity);
         }
-        
+
+        public IEnumerable<TEntity> Find(Func<TEntity, bool> predicate)
+        {
+            return _context.Set<TEntity>().Where(predicate);
+        }
+
         public TEntity Get(int id)
         {
             return _context.Set<TEntity>().Find(id);

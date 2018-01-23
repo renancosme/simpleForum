@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SimpleForum.Domain;
 using SimpleForum.Domain.Entities;
@@ -7,6 +8,7 @@ using SimpleForum.Presentation.Models;
 
 namespace SimpleForum.Presentation.Controllers
 {
+    [Authorize]
     public class PostController : Controller
     {
         private readonly IUnitOfWork _unityOfWork;

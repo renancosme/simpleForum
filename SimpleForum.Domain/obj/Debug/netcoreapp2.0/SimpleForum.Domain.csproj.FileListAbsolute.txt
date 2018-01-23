@@ -7,3 +7,12 @@ C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleFo
 C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Domain\obj\Debug\netcoreapp2.0\SimpleForum.Domain.AssemblyInfo.cs
 C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Domain\obj\Debug\netcoreapp2.0\SimpleForum.Domain.dll
 C:\Users\RENAN\Documents\Visual Studio 2017\Projects\SimpleForum.Domain\SimpleForum.Domain\obj\Debug\netcoreapp2.0\SimpleForum.Domain.pdb
+C:\Git\forum\SimpleForum.Domain\bin\Debug\netcoreapp2.0\SimpleForum.Domain.deps.json
+C:\Git\forum\SimpleForum.Domain\bin\Debug\netcoreapp2.0\SimpleForum.Domain.dll
+C:\Git\forum\SimpleForum.Domain\bin\Debug\netcoreapp2.0\SimpleForum.Domain.pdb
+C:\Git\forum\SimpleForum.Domain\obj\Debug\netcoreapp2.0\SimpleForum.Domain.csprojResolveAssemblyReference.cache
+C:\Git\forum\SimpleForum.Domain\obj\Debug\netcoreapp2.0\SimpleForum.Domain.csproj.CoreCompileInputs.cache
+C:\Git\forum\SimpleForum.Domain\obj\Debug\netcoreapp2.0\SimpleForum.Domain.AssemblyInfoInputs.cache
+C:\Git\forum\SimpleForum.Domain\obj\Debug\netcoreapp2.0\SimpleForum.Domain.AssemblyInfo.cs
+C:\Git\forum\SimpleForum.Domain\obj\Debug\netcoreapp2.0\SimpleForum.Domain.dll
+C:\Git\forum\SimpleForum.Domain\obj\Debug\netcoreapp2.0\SimpleForum.Domain.pdb
