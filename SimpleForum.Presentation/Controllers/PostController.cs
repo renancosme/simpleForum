@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SimpleForum.Domain;
@@ -28,11 +29,16 @@ namespace SimpleForum.Presentation.Controllers
         [HttpPost]
         public IActionResult Create(PostViewModel postViewModel)
         {
+            var userId = Convert.ToInt32(
+                User.Claims
+                .Where(c => c.Type == ClaimTypes.Sid)
+                .FirstOrDefault().Value);
+
             Post post = new Post {
                 Description = postViewModel.Description,
                 Date = DateTime.Now,
                 TopicId = postViewModel.TopicId,
-                UserId = 2 //Pending
+                UserId = userId
             };
 
             _unityOfWork.Posts.Add(post);

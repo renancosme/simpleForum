@@ -27,18 +27,23 @@ namespace SimpleForum.Presentation.Controllers
         }
 
         [HttpPost]
-        public IActionResult Login(UserViewModel userViewModel)
+        public IActionResult Login(string login, string password)
         {
-            var isNewUser = _unitOfWork.Users.Find(u => u.Name.Equals(userViewModel.Login)).Count() == 0;
-            if (isNewUser)
+            var user = _unitOfWork.Users.Find(u => 
+                            u.Name.Equals(login) &&
+                            u.Password.Equals(password))
+                            .FirstOrDefault();
+
+            if (user == null)
             {
-                ModelState.AddModelError("Login", "User doesn't found.");
+                ModelState.AddModelError("Login", "User or password is not correct.");
                 return View();
             }
             else
             {
                 var claims = new List<Claim> {
-                            new Claim(ClaimTypes.Name, userViewModel.Login, ClaimValueTypes.String)
+                            new Claim(ClaimTypes.Name, login, ClaimValueTypes.String),
+                            new Claim(ClaimTypes.Sid, user.Id.ToString())
                          };
 
                 var userIdentity = new ClaimsIdentity(claims, "login");
@@ -49,13 +54,12 @@ namespace SimpleForum.Presentation.Controllers
                         CookieAuthenticationDefaults.AuthenticationScheme,
                         new ClaimsPrincipal(userPrincipal)
                 );
-            }
-            
+            }            
 
             return RedirectToAction("Create", "Topic");
         }
 
-        [HttpPost]
+        [HttpGet]
         public IActionResult Logout()
         {
             HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);

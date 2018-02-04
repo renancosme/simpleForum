@@ -47,8 +47,9 @@ namespace SimpleForum.Infrastructure.Repository
         {
             return SimpleForumContext.Topics
                 .Include(t => t.Posts)
+                    .ThenInclude(p => p.User)
                 .Include(t => t.User)
-                //.Include(t => t.Posts.Select(p => p.User))
+                //.Include(t => t.Posts.Select(p => p.User)) ---> Before .Net Core
                 .Where(t => t.Id == id)
                 .FirstOrDefault();
         }

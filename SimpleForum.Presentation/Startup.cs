@@ -34,16 +34,16 @@ namespace SimpleForum.Presentation
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
-            services.AddMvc();
-
             // Sets the default authentication scheme for the app.
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                     .AddCookie(options =>
                     {
                         options.LoginPath = "/Login/Login";
                         options.LogoutPath = "/Login/Logout";
-                        options.ExpireTimeSpan = TimeSpan.FromSeconds(20);
+                        options.ExpireTimeSpan = TimeSpan.FromMinutes(20);
                     });
+
+            services.AddMvc();            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

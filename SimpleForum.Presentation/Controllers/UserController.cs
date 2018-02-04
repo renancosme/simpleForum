@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SimpleForum.Domain;
+using SimpleForum.Domain.Entities;
 using SimpleForum.Presentation.Models;
 
 namespace SimpleForum.Presentation.Controllers
@@ -37,10 +38,17 @@ namespace SimpleForum.Presentation.Controllers
                     }
                     else
                     {
-                        RedirectToAction(
-                            "LogIn", 
-                            "Login", 
-                            new { login = userViewModel.Login, password = userViewModel.Password });
+                        _unitOfWork.Users.Add(new User {
+                            Name = userViewModel.Login,
+                            Password = userViewModel.Password
+                        });
+
+                        _unitOfWork.Save();
+                                                
+                        return RedirectToAction(
+                                "Login",
+                                "Login",
+                                new { login = userViewModel.Login, password = userViewModel.Password });
                     }
                 }
                 catch (Exception e)

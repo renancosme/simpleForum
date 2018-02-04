@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Security.Claims;
 using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -38,6 +39,11 @@ namespace SimpleForum.Presentation.Controllers
         [HttpPost]
         public IActionResult Create(TopicViewModel topicViewModel)
         {
+            var userId = Convert.ToInt32(
+                User.Claims
+                .Where(c => c.Type == ClaimTypes.Sid)
+                .FirstOrDefault().Value);
+
             if (ModelState.IsValid)
             {
                 Topic topic = new Topic
@@ -45,13 +51,13 @@ namespace SimpleForum.Presentation.Controllers
                     Description = topicViewModel.Description,
                     Date = DateTime.Now,
                     Title = topicViewModel.Title,
-                    UserId = 2 //Pending
+                    UserId = userId
                 };
 
                 _unityOfWork.Topics.Add(topic);
                 _unityOfWork.Save();
 
-                return RedirectToAction("Index");
+                return RedirectToAction(nameof(Index));
             }            
 
             return View(topicViewModel);
