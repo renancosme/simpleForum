@@ -13,5 +13,13 @@ namespace SimpleForum.Domain.Entities
         public List<Post> Posts { get; set; }
 
         public List<Topic> Topics { get; set; }
+
+        public static User New(string name, string password)
+        {
+            return new User {
+                Name = name,
+                Password = password
+            };
+        }
     }
 }

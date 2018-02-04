@@ -33,14 +33,9 @@ namespace SimpleForum.Presentation.Controllers
                 User.Claims
                 .Where(c => c.Type == ClaimTypes.Sid)
                 .FirstOrDefault().Value);
-
-            Post post = new Post {
-                Description = postViewModel.Description,
-                Date = DateTime.Now,
-                TopicId = postViewModel.TopicId,
-                UserId = userId
-            };
-
+            
+            Post post = Post.New(postViewModel.Description, postViewModel.TopicId, userId);
+            
             _unityOfWork.Posts.Add(post);
 
             _unityOfWork.Save();

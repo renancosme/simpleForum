@@ -18,5 +18,16 @@ namespace SimpleForum.Domain.Entities
         public int UserId { get; set; }
 
         public User User { get; set; }
+
+        public static Topic New(string description, string title, int userId)
+        {
+            return new Topic
+            {
+                Description = description,
+                Date = DateTime.Now,
+                Title = title,
+                UserId = userId
+            };
+        }
     }
 }

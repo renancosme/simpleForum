@@ -38,10 +38,9 @@ namespace SimpleForum.Presentation.Controllers
                     }
                     else
                     {
-                        _unitOfWork.Users.Add(new User {
-                            Name = userViewModel.Login,
-                            Password = userViewModel.Password
-                        });
+                        var user = Domain.Entities.User.New(userViewModel.Login, userViewModel.Password);
+
+                        _unitOfWork.Users.Add(user);
 
                         _unitOfWork.Save();
                                                 

@@ -8,7 +8,7 @@ namespace SimpleForum.Presentation.Models
     public class TopicViewModel
     {        
         [Required]
-        [MaxLength(100, ErrorMessage = "O valor máximo é 100")]
+        [MaxLength(100)]
         [MinLength(2)]
         public String Title { get; set; }
 

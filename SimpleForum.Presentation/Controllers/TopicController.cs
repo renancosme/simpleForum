@@ -46,13 +46,7 @@ namespace SimpleForum.Presentation.Controllers
 
             if (ModelState.IsValid)
             {
-                Topic topic = new Topic
-                {
-                    Description = topicViewModel.Description,
-                    Date = DateTime.Now,
-                    Title = topicViewModel.Title,
-                    UserId = userId
-                };
+                Topic topic = Topic.New(topicViewModel.Description, topicViewModel.Title, userId);                
 
                 _unityOfWork.Topics.Add(topic);
                 _unityOfWork.Save();
